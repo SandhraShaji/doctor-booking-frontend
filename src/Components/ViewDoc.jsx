@@ -15,12 +15,12 @@ function ViewDoc() {
         fetchDetails()
     },[])
   return (
-    <div>
-        <MDBRow className='px-5 py-4'>
-            <MDBCol className='ms-5'>
+    <div style={{width:'100%'}}>
+        <MDBRow style={{width:'100%'}} className='px-5 py-4'>
+            <MDBCol id='col1' className='ms-5'>
                 <img width={'75%'} src={docDetails.image} alt="" />
             </MDBCol>
-            <MDBCol style={{boxShadow:'1px 1px 5px grey'}} className='my-3 me-3'>
+            <MDBCol style={{boxShadow:'1px 1px 5px grey'}} className='my-3'>
                 <div style={{backgroundColor:'rgb(46, 139, 87,0.5)'}} className="row px-3 pt-4">
                 <h3 className='mb-2'>{docDetails.name}</h3>
                 <h4 className='mb-3'>{docDetails.specialty}</h4>

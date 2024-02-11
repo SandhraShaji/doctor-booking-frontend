@@ -9,8 +9,8 @@ function Header() {
     <div>
         <MDBNavbar light style={{backgroundColor:'rgb(46, 139, 87,0.7)'}}>
         <MDBContainer fluid>
-          <MDBNavbarBrand style={{color:'white'}} href='#'>
-          <i class="fa-solid fa-stethoscope me-2"></i>
+          <MDBNavbarBrand style={{color:'white'}} href='/'>
+          <i class="fa-solid fa-stethoscope mx-2"></i>
             DocHere
           </MDBNavbarBrand>
         </MDBContainer>
